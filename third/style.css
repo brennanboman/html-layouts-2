@@ -1,0 +1,48 @@
+header {
+  background-color: black;
+  height: 50px;
+  width: 625px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.apple {
+  color: white;
+  margin-left: 20px;
+}
+
+.google {
+  color: white;
+  margin-left: 20px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.leftContainer {
+  overflow: visible;
+  max-width: 300px;
+}
+
+.rightContainer {
+  overflow: visible;
+  max-width: 300px;
+  margin-left: 25px;
+}
+
+.imageBox {
+background-color: gray;
+height: 250px;
+weight: 300px;
+}
+
+footer {
+  background: black;
+  height: 50px;
+  width: 625px;
+}

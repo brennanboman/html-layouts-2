@@ -1,0 +1,84 @@
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.topRedBox {
+  height: 100px;
+  width: 175px;
+  background-color: red;
+}
+
+.topBlueBox {
+  height: 100px;
+  width: 175px;
+  background-color: blue;
+}
+
+.topGrayBox {
+  height: 100px;
+  width: 175px;
+  background-color: gray;
+}
+
+.whiteBox {
+  background-color: white;
+  width: 600px;
+}
+
+.middleSectionContainer {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+}
+
+.biggerRedBox {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  flex: left;
+  flex-grow: 1;
+}
+
+.biggerBlueBox {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  flex: right;
+  flex-grow: 4;
+}
+
+.bottomContainer {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  padding-top: 15px;
+}
+
+.bottomBlueBox {
+  height: 100px;
+  background-color: blue;
+  flex-grow: 8;
+}
+
+.bottomRedBox1 {
+  background-color: red;
+  height: 100px;
+  flex-grow: 1;
+}
+
+.bottomGrayBox {
+  background-color: gray;
+  height: 100px;
+  flex-grow: 3;
+}
+
+.bottomRedBox2 {
+  height: 100px;
+  background-color: red;
+  flex-grow: 1;
+
+
+}

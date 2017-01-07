@@ -1,0 +1,93 @@
+body {
+  background-color: #999;
+}
+
+.entireContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.topContainer {
+  background-color: white;
+  height: 200px;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.redBlueButtonsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.redButton {
+  background-color: red;
+  height: 40px;
+  width: 120px;
+  color: white;
+  margin-left: 15px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blueButton {
+  background-color: blue;
+  height: 40px;
+  width: 120px;
+  color: white;
+  margin-left: 15px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomContainer {
+  background-color: white;
+  height: 400px;
+  width: 500px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+
+.imageBox {
+  background-color: gray;
+  height: 200px;
+  width: 300px;
+  color: white;
+  font-size: 30px;
+  font-family: fantasy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+  width: 700px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.apple {
+  color: white;
+  padding-right: 20px;
+}
+
+.google {
+  color: white;
+  padding-right: 20px;
+}
